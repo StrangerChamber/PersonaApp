@@ -4,4 +4,4 @@ This is my repo for the Project GHOST work I've been doing, This inlcudes an SGX
 
 
 
-To make the project, clone, ensure your machine has all intel SGX capabilities set up, then Make SGX=1, to run ./app. 
+To make the project, clone, ensure your machine has all intel SGX capabilities set up, then Make SGX=1, to run you need sudo privileges because you're opening a network device. run with: sudo ./app file1 ip1 file2 ip2 
